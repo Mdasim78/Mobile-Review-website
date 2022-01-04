@@ -23,29 +23,29 @@
             #topnavmenu a:hover{background-color: rgb(80, 160, 197);}
             .columnleft{width:100%;float: left;clear: both;}
             
-            .card{background-color: rgb(213, 220, 223);height:400px;margin: 15px;box-shadow: 0px 0px 7px 2px rgb(106, 128, 143);border-radius: 10px;width: 40%;float: left;text-overflow: ellipsis;}
+            .card{background-color: rgb(213, 220, 223);height:400px;margin: 20px;box-shadow: 0px 0px 7px 2px rgb(106, 128, 143);border-radius: 10px;width: 40%;float: left;text-overflow: ellipsis;}
             .cardimgcontainer{float: left;height: 200px;width: 520px;display: inline-block;margin-right: 10px;position: relative;max-width: 100%;border-radius: 10px 0px 0px 10px ;transition:0.5s ease;}
             .cardimg{height: 200px;width: 260px;display: inline-block;margin-right: 10px;position: relative;max-width: 100%;border-radius: 10px;transition:0.5s ease;}
             .cardimgtext{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background-color: azure;color: black;transition: 0.5s ease;padding: 12px 18px;font-size: 2em;border-radius: 12px; opacity: 0;}
             .cardimgtext a{text-decoration: none;}
             .cardimgcontainer:hover .cardimg{filter: blur(3px);opacity: 70%;}
             .cardimgcontainer:hover .cardimgtext{opacity: 1;}
-            .cardtextcontainer{float: left;height: 200px;text-overflow: ellipsis;overflow: hidden;text-overflow: clip;}
+            .cardtextcontainer{float: left;height: 200px;text-overflow: ellipsis;overflow: hidden;text-overflow: clip;text-align: center;}
             .cardtitle{font-size: 3vw;text-decoration: none;color: rgb(0, 0, 0);border-bottom: 3px solid rgb(28, 177, 247) ;display: inline-block;margin: 15px 0px 0px 0px;text-align: center;}
             .cardimg:hover .cardtitle{color: brown;}
             .cardtitle:hover{color:rgb(218, 42, 42) ;}
-            .carddesc{text-align: justify;}
+            .carddesc{text-align: justify;padding: 5px;}
             .columnright{width: 100%;float: none;clear: both;}
-            .cardright{background-color: rgb(236, 2, 2);clear: right;margin-right: 15px;padding: 7px;box-shadow: 0px 0px 7px 1px rgb(106, 128, 143);}
+            .cardright{background-color: rgb(167, 152, 230);margin: 15px;padding: 7px;box-shadow: 0px 0px 7px 1px rgb(106, 128, 143);border-radius: 5px;}
             .row:after { content: "";display: table; clear: both;}
-            #footer{background-color: aqua;font-size: 25px;text-align: center;padding: 3px;}
+            #footer{background-color: rgb(38, 146, 146);font-size: 25px;text-align: center;padding: 3px;}
             @media screen and (min-width:850px) {
                 #topnavmenu{position: sticky;top: 0px;}
                 #topnavmenu a{float:none;width: auto;display: inline-block;}
                 .columnleft{width: 75%;}
                 .cardimg{float: left;height: 400px;width: 520px;border-radius: 10px 0px 0px 10px ;}
                 .card{width: fit-content;float: none;}
-                .cardtextcontainer{float: left;height: 400px;text-overflow: ellipsis;width:45%;overflow: hidden;}
+                .cardtextcontainer{float: left;height: 400px;text-overflow: ellipsis;width:45%;overflow: hidden;text-align: left;}
                 .cardimgcontainer{height: 400px;}
                 .carddesc{border-left: 5px solid gray;padding-left: 5px;}
                 .cardtitle{text-align: left;}
@@ -100,13 +100,14 @@
                 <img class="cardimg" src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-10-pro/overview09-img.jpg" alt="redmi note 10 pro">
                 <div class="cardimgtext"><a href="#redminote10pro" target="_blank"> read more</a></div>
                 </div>
-              
+              <div class="cardtextcontainer">
                 <a class="cardtitle" href="#redminote10pro">Redmi Note 10 Pro</a>
-               <!-- <p class="carddesc">
+                <p class="carddesc">
                     Redmi Note 10 Pro mobile was launched on 4th March 2021. The phone comes with a 6.67-inch touchscreen display. Redmi Note 10 Pro is powered by an octa-core Qualcomm Snapdragon 732G processor. It comes with 6GB of RAM. The Redmi Note 10 Pro runs Android 11 and is powered by a 5050mAh battery. The Redmi Note 10 Pro supports proprietary fast charging.
                     <br><br>
                     As far as the cameras are concerned, the Redmi Note 10 Pro on the rear packs a quad camera setup featuring a 64-megapixel primary camera with an f/1.9 aperture and a pixel size of 0.7-micron; an 8-megapixel camera; a 5-megapixel camera, and a 2-megapixel camera. The rear camera setup has autofocus. It has a single front camera setup for selfies, featuring a 16-megapixel sensor with an f/2.45 aperture and a pixel size of 1.0-micron.
-                </p> -->
+                </p> 
+              </div>
               
             </div>
         </div>
