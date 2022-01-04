@@ -25,16 +25,16 @@
             
             .card{background-color: rgb(213, 220, 223);height:400px;margin: 15px;box-shadow: 0px 0px 7px 2px rgb(106, 128, 143);border-radius: 10px;width: 40%;float: left;text-overflow: ellipsis;}
             .cardimgcontainer{float: left;height: 200px;width: 520px;display: inline-block;margin-right: 10px;position: relative;max-width: 100%;border-radius: 10px 0px 0px 10px ;transition:0.5s ease;}
-            .cardimg{height: 200px;width: 260px;display: inline-block;margin-right: 10px;position: relative;max-width: 100%;border-radius: 10px 0px 0px 10px ;transition:0.5s ease;}
+            .cardimg{height: 200px;width: 260px;display: inline-block;margin-right: 10px;position: relative;max-width: 100%;border-radius: 10px;transition:0.5s ease;}
             .cardimgtext{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background-color: azure;color: black;transition: 0.5s ease;padding: 12px 18px;font-size: 2em;border-radius: 12px; opacity: 0;}
             .cardimgtext a{text-decoration: none;}
             .cardimgcontainer:hover .cardimg{filter: blur(3px);opacity: 70%;}
             .cardimgcontainer:hover .cardimgtext{opacity: 1;}
-            .cardtextcontainer{float: left;height: 400px;text-overflow: ellipsis;text-overflow: clip;}
-            .cardtitle{font-size: 3vw;text-decoration: none;color: rgb(0, 0, 0);border-bottom: 3px solid rgb(28, 177, 247) ;display: inline-block;margin: 15px 0px 0px 0px;}
+            .cardtextcontainer{float: left;height: 200px;text-overflow: ellipsis;overflow: hidden;text-overflow: clip;}
+            .cardtitle{font-size: 3vw;text-decoration: none;color: rgb(0, 0, 0);border-bottom: 3px solid rgb(28, 177, 247) ;display: inline-block;margin: 15px 0px 0px 0px;text-align: center;}
             .cardimg:hover .cardtitle{color: brown;}
             .cardtitle:hover{color:rgb(218, 42, 42) ;}
-            .carddesc{text-align: justify;border-left: 5px solid gray;padding-left: 5px;height: 200px;text-overflow: ellipsis;}
+            .carddesc{text-align: justify;}
             .columnright{width: 100%;float: none;clear: both;}
             .cardright{background-color: rgb(236, 2, 2);clear: right;margin-right: 15px;padding: 7px;box-shadow: 0px 0px 7px 1px rgb(106, 128, 143);}
             .row:after { content: "";display: table; clear: both;}
@@ -43,10 +43,12 @@
                 #topnavmenu{position: sticky;top: 0px;}
                 #topnavmenu a{float:none;width: auto;display: inline-block;}
                 .columnleft{width: 75%;}
-                .cardimg{float: left;height: 400px;width: 520px;}
+                .cardimg{float: left;height: 400px;width: 520px;border-radius: 10px 0px 0px 10px ;}
                 .card{width: fit-content;float: none;}
-                .cardtextcontainer{float: left;height: 400px;text-overflow: ellipsis;width:45%;background-color: chartreuse;}
+                .cardtextcontainer{float: left;height: 400px;text-overflow: ellipsis;width:45%;overflow: hidden;}
                 .cardimgcontainer{height: 400px;}
+                .carddesc{border-left: 5px solid gray;padding-left: 5px;}
+                .cardtitle{text-align: left;}
 
                 .columnright{float: left;width: 25%;clear: none;}
             }
